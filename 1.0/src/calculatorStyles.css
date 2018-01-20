@@ -1,0 +1,80 @@
+body {
+  width: 100%;
+  background-color: #BDACAD;
+}
+
+#calBody {
+  position: absolute;
+  background-color: #221E19;
+  top: 50vh;
+  left: 50vw;
+  transform: translate(-50%, -50%);
+  height: 390px;
+  width: 280px;
+  border-radius: 10px;
+}
+
+#display {
+  position: relative;
+  font-family: 'Segment7Standard';
+  font-weight: normal;
+  font-style: italic;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  background-color: #6D424A;
+  padding: 1%;
+  height: 20%;
+  width: 90%;
+  color: #CC3A3C;
+  overflow:hidden;
+}
+#accu {
+  position: relative;
+  height: 40%;
+  font-size: 20px;
+  text-align: right;
+  width: 100%;
+}
+#curr {
+  position: relative;
+  margin: auto;
+  height: 60%;
+  font-size: 40px;
+  text-align: right;
+  width: 100%;
+}
+#userInput {
+  position: relative;
+  background-color: #77645c;
+  width: 90%;
+  border-radius: 5px;
+  margin: 5%;
+  padding: 10px 0px 10px 0px;
+}
+button {
+  border-radius: 5px;
+  font-family: 'Orbitron', sans-serif;
+  font-weight: bold;
+  border: 2px solid #c6ac90;
+  background-color: #DBBEAA;
+  width: 45px;
+  height: 35px;
+  margin: 5px 0px 5px 12px;
+  color: #604A32;
+}
+
+#ac, #erase {
+  background-color: #DF8448;
+  border: 2px solid #a74b1c;
+}
+
+#equal {
+  position:absolute;
+  background-color: #1A090A;
+  color: #DBBEAA;
+  border: 2px solid #524e46;
+  margin-left: 15px;
+  height: 80px;
+}
